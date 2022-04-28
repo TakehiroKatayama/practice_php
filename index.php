@@ -9,3 +9,11 @@ echo "Hello World!\n";
 print("Hello World!\n");
 
 ?>
+
+<?php
+
+$name = "yamada";
+
+echo $name;
+
+?>
