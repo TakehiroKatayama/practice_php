@@ -25,3 +25,11 @@ const NAME = "yada";
 echo NAME;
 
 ?>
+
+<?php
+
+define("TEXT" , "japanese");
+
+echo TEXT;
+
+?>
