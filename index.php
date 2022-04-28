@@ -17,3 +17,11 @@ $name = "yamada";
 echo $name;
 
 ?>
+
+<?php
+
+const NAME = "yada";
+
+echo NAME;
+
+?>
