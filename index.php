@@ -14,7 +14,9 @@ print("Hello World!\n");
 
 $name = "yamada";
 
-echo $name;
+echo $name."\n";
+
+echo "Hello!!".$name;
 
 ?>
 
@@ -33,3 +35,4 @@ define("TEXT" , "japanese");
 echo TEXT;
 
 ?>
+
