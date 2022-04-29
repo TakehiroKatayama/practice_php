@@ -24,7 +24,9 @@ echo "Hello!!".$name;
 
 const NAME = "yada";
 
-echo NAME;
+echo NAME."\n";
+
+echo "Hello!!".NAME;
 
 ?>
 
