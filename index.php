@@ -38,3 +38,14 @@ echo TEXT;
 
 ?>
 
+<?php
+
+//変数$itemを定義し、penを格納する
+$item = "pen";
+echo $item;
+
+//変数$itemの値をnoteに上書きする
+$item = "note";
+echo $item;
+
+?>
