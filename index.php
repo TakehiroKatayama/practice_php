@@ -76,3 +76,27 @@ if($num <= 3 || $num >= 7) {
 }
 
 ?>
+
+<?php
+
+$fruits = "apple";
+
+//比較対象をcaseの後に記述
+switch($fruits) {
+//比較対象と比較する値を記述
+    case "banana":
+        echo "バナナです";
+        break;
+    case "apple":
+        echo "りんごです";
+    case "orange":
+        echo "オレンジです";
+        break;
+    case "mango":
+        echo "マンゴーです";
+        break;
+    default:
+        echo "不正な名前です";
+}
+
+?>
