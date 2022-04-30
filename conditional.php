@@ -14,7 +14,7 @@ $enemy_attack = 5;
 $enemy_defense = 10;
 
 //敵に与えるダメージの計算
-$enemy_damage = $brave_attack - $enemy_defense;
+$enemy_damage = $brave_attack - $enemy_defense + mt_rand(3,5);
 
 //敵のHPにダメージを与える
 $enemy_hp = $enemy_hp - $enemy_damage;
@@ -35,5 +35,30 @@ if($enemy_hp > 20){
 }else{
   echo "敵はしんだ";
 }
+
+//敵に与えるダメージの計算
+$brave_damage = $enemy_attack - $brave_defense + mt_rand(3,5);
+//敵のHPにダメージを与える
+$brave_hp = $brave_hp - $brave_damage;
+
+//敵に与えるダメージと残りHPの表示
+echo "敵から".$brave_damage."のダメージを受けた。";
+echo "<br>";
+echo "残りHPは".$brave_hp."だ。";
+echo "<br>";
+
+//残りHPによってリアクションを変える
+if($brave_hp > 20){
+  echo "勇者は元気だ";
+}elseif($brave_hp > 10){
+  echo "勇者はちょっと弱っている";
+}elseif($brave_hp > 5){
+  echo "勇者はかなり弱っている";
+}elseif($brave_hp > 0){
+  echo "勇者は瀕死だ";
+}else{
+  echo "勇者は死んだ";
+}
+
 
 ?>
