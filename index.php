@@ -89,6 +89,7 @@ switch($fruits) {
         break;
     case "apple":
         echo "りんごです";
+        break;
     case "orange":
         echo "オレンジです";
         break;
