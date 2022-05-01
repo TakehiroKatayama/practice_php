@@ -101,3 +101,11 @@ switch($fruits) {
 }
 
 ?>
+
+<?php
+
+$ages = [22, 34, 12, 45];
+
+echo $ages[0];
+
+?>
