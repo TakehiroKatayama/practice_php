@@ -119,3 +119,14 @@ echo $ages[2];
 echo $ages[3];
 
 ?>
+
+<?php
+
+$fruits = [
+    "banana" => "バナナ",
+    "apple" => "りんご",
+    "orange" => "みかん",
+    "grape" => "ぶどう"
+];
+
+?>
