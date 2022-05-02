@@ -138,5 +138,7 @@ $ages = [
 
 echo $fruits["apple"];
 
+echo $ages["兄"];
+
 
 ?>
